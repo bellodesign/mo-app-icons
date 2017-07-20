@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+
+$mo-app-icons-path: "assets/fonts/mo-app-icons/" !default;
+
+
+@font-face {
+  font-family: "mo-app";
+  src: url("#{$mo-app-icons-path}mo-app.eot");
+  src: url("#{$mo-app-icons-path}mo-app.eot?#iefix") format("embedded-opentype"), url("#{$mo-app-icons-path}mo-app.woff") format("woff"), url("#{$mo-app-icons-path}mo-app.ttf") format("truetype"), url("#{$mo-app-icons-path}/mo-app.svg#mo-app") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin mo-app-icon($mo-icon: $blank-content) {
+  content: $mo-icon;
+  display: inline-block;
+  font-family: "mo-app" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-icon]:before {
+  font-family: "mo-app" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="mo-app-icon-"]:before,
+[class*=" mo-app-icon-"]:before {
+  font-family: "mo-app" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mo-app-icon-map-marker:before {
+  content: "\61";
+}
+$mo-app-icon-map-marker: "\61";
+
+.mo-app-icon-heart-o:before {
+  content: "\62";
+}
+$mo-app-icon-heart-o: "\62";
+
+.mo-app-icon-heart:before {
+  content: "\63";
+}
+$mo-app-icon-heart: "\63";
+
+.mo-app-icon-page-edit:before {
+  content: "\64";
+}
+$mo-app-icon-page-edit: "\64";
+
+.mo-app-icon-checkmark:before {
+  content: "\67";
+}
+$mo-app-icon-checkmark: "\67";
+
+.mo-app-icon-pencil:before {
+  content: "\65";
+}
+$mo-app-icon-pencil: "\65";
+
+.mo-app-icon-ios-circle-filled:before {
+  content: "\66";
+}
+$mo-app-icon-ios-circle-filled: "\66";
+
+.mo-app-icon-ios-circle-outline:before {
+  content: "\68";
+}
+$mo-app-icon-ios-circle-outline: "\68";
+
+.mo-app-icon-check:before {
+  content: "\73";
+}
+$mo-app-icon-check: "\73";
+
+.mo-app-icon-checkbox:before {
+  content: "\69";
+}
+$mo-app-icon-checkbox: "\69";
+
+.mo-app-icon-circle:before {
+  content: "\6e";
+}
+$mo-app-icon-circle: "\6e";
+
+.mo-app-icon-thumb:before {
+  content: "\74";
+}
+$mo-app-icon-thumb: "\74";
+
+.mo-app-icon-checkbox-checked:before {
+  content: "\6a";
+}
+$mo-app-icon-checkbox-checked: "\6a";
+
+.mo-app-icon-checkbox-filled:before {
+  content: "\6b";
+}
+$mo-app-icon-checkbox-filled: "\6b";
+
+.mo-app-icon-trash-a:before {
+  content: "\6c";
+}
+$mo-app-icon-trash-a: "\6c";
+
+.mo-app-icon-android-close:before {
+  content: "\6d";
+}
+$mo-app-icon-android-close: "\6d";
+
+.mo-app-icon-android-add:before {
+  content: "\6f";
+}
+$mo-app-icon-android-add: "\6f";
+
+.mo-app-icon-android-remove:before {
+  content: "\70";
+}
+$mo-app-icon-android-remove: "\70";
+
+.mo-app-icon-cart:before {
+  content: "\71";
+}
+$mo-app-icon-cart: "\71";
+
+.mo-app-icon-android-add-circle:before {
+  content: "\72";
+}
+$mo-app-icon-android-add-circle: "\72";
+
+.mo-app-icon-credit-card:before {
+  content: "\75";
+}
+$mo-app-icon-credit-card: "\75";
+
+.mo-app-icon-map:before {
+  content: "\77";
+}
+$mo-app-icon-map: "\77";
+
+.mo-app-icon-info:before {
+  content: "\76";
+}
+$mo-app-icon-info: "\76";
+
+.mo-app-icon-comment-o:before {
+  content: "\78";
+}
+$mo-app-icon-comment-o: "\78";
+
+.mo-app-icon-user-outline:before {
+  content: "\79";
+}
+$mo-app-icon-user-outline: "\79";
+
+.mo-app-icon-my-location:before {
+  content: "\7a";
+}
+$mo-app-icon-my-location: "\7a";
+
+.mo-app-icon-search:before {
+  content: "\41";
+}
+$mo-app-icon-search: "\41";
+
+.mo-app-icon-calendar:before {
+  content: "\42";
+}
+$mo-app-icon-calendar: "\42";
