@@ -1,0 +1,19 @@
+{
+  "name": "mo-app-icons",
+  "version": "1.0.0",
+  "description": "Icons for Mobile Order Apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markomaberg/mo-app-icons.git"
+  },
+  "author": "Mobile Order",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markomaberg/mo-app-icons/issues"
+  },
+  "homepage": "https://github.com/markomaberg/mo-app-icons#readme"
+}
