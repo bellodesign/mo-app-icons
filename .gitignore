@@ -32,3 +32,6 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/config/applicationhost.config
