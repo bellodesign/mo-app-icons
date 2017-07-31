@@ -122,3 +122,12 @@
 .mo-app-icon-calendar:before {
   content: "\42";
 }
+.mo-app-icon-restaurant:before {
+  content: "\43";
+}
+.mo-app-icon-dagens-lunch:before {
+  content: "\44";
+}
+.mo-app-icon-dagens-lunch-2:before {
+  content: "\45";
+}

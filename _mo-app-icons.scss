@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 
 $mo-app-icons-path: "assets/fonts/mo-app-icons/" !default;
@@ -191,3 +191,18 @@ $mo-app-icon-search: "\41";
   content: "\42";
 }
 $mo-app-icon-calendar: "\42";
+
+.mo-app-icon-restaurant:before {
+  content: "\43";
+}
+$mo-app-icon-restaurant: "\43";
+
+.mo-app-icon-dagens-lunch:before {
+  content: "\44";
+}
+$mo-app-icon-restaurant: "\44";
+
+.mo-app-icon-dagens-lunch-2:before {
+  content: "\45";
+}
+$mo-app-icon-restaurant: "\45";
