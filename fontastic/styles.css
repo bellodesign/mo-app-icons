@@ -131,3 +131,6 @@
 .mo-app-icon-dagens-lunch-2:before {
   content: "\45";
 }
+.mo-app-icon-receipt:before {
+  content: "\46";
+}
